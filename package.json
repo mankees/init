@@ -1,0 +1,11 @@
+{
+  "name": "mankees-init",
+  "private": true,
+  "description": "Project initializer. Pass template and project name as parameters",
+  "author": "Juho Vepsalainen <bebraw@gmail.com>",
+  "version": "0.1.0",
+  "dependencies": {
+    "handlebars": "1.0.12",
+    "filewalker": "0.1.2"
+  }
+}
