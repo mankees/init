@@ -44,7 +44,7 @@ function getTemplateNames(root, cb) {
     var ret = [];
 
     walker(root).on('dir', function(p) {
-        if(p.indexOf('node_modules') !== 0) ret.push(p);
+        if(p.indexOf('node_modules') !== 0 && p[0] !== '.') ret.push(p);
     }).on('done', function() {
         cb(ret);
     }).walk();
