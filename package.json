@@ -10,6 +10,10 @@
   "keywords": [
     "mankees"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mankees/init.git"
+  },
   "licenses": [
     {
       "type": "MIT",
