@@ -2,7 +2,7 @@
   "name": "mankees-init",
   "description": "Project initializer. Pass template and project name as parameters",
   "author": "Juho Vepsalainen <bebraw@gmail.com>",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "dependencies": {
     "handlebars": "1.0.12",
     "filewalker": "0.1.2"
